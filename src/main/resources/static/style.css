@@ -1,0 +1,808 @@
+:root {
+    --black: #222222;
+    --white: #E5E5E5;
+    --gray: #5D5D5D;
+    --blue: #1466a6;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0em;
+}
+
+.body__wrp {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__flex {
+    flex: 0 0 auto;
+}
+
+.main__flex {
+    flex: 1 0 auto;
+}
+
+.footer__flex {
+    flex: 0 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.header {
+    width: 100%;
+    background-color: var(--black);
+}
+
+.header__wrp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 75px;
+}
+
+.header__logo-box {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    height: 50px;
+    margin-right: 40px;
+}
+
+.header__title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    color: var(--white);
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__item {
+    margin-left: 20px;
+}
+
+.header__bar {
+    width: 3px;
+    height: 36px;
+    border-radius: 2px;
+    background-color: var(--white);
+}
+
+.header__button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header__button:hover {
+    cursor: pointer;
+}
+
+.header__link-exit {
+    width: 36px;
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.header__link-person {
+    width: 33px;
+}
+
+.header__link-calendar {
+    width: 33px;
+}
+
+.header__link-archive {
+    width: 33px;
+}
+
+.header__username {
+    font-family: 'Amita', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--white);
+}
+
+.barber {
+    background-image: url("../img/barber-bkg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.barber__wrp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barber__img {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 430px;
+}
+
+.barber__article {
+    width: 60%;
+}
+
+.barber__title {
+    margin-bottom: 35px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: var(--white);
+}
+
+.barber__text {
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--white);
+}
+
+.barber__subtext {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--white);
+}
+
+.catalog__heading {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--black);
+    text-align: center;
+}
+
+.catalog__text {
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: var(--gray);
+    text-align: center;
+}
+
+.catalog__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.catalog__item {
+    width: 550px;
+    height: 315px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.catalog__item-1 {
+    background-image: url("../img/haircut.jpeg");
+}
+
+.catalog__item-2 {
+    background-image: url("../img/beard.jpeg");
+}
+
+.catalog__item-3 {
+    background-image: url("../img/shaving-d.jpeg");
+}
+
+.catalog__item-4 {
+    background-image: url("../img/tattoo-d.jpeg");
+}
+
+.catalog__title {
+    position: absolute;
+    padding: 10px;
+    bottom: 15px;
+    left: 15px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: var(--white);
+}
+
+.catalog__subtitle {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.advantages {
+    background-color: var(--black);
+}
+
+.advantages__wrp {
+    min-height: 260px;
+    align-items: center;
+}
+
+.advantages__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 320px;
+    padding-top: 40px;
+}
+
+.advantages__icon {
+    width: 70px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.advantages__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--white);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.promo {
+    background: url(../img/barber-bkg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.promo__wrp {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.promo__article {
+    width: 400px;
+}
+
+.promo__title {
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 15px;
+}
+
+.promo__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--white);
+}
+
+.promo__form {
+    display: flex;
+    height: 49px;
+}
+
+.promo__input {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--gray);
+    background-color: #E1E1E1;
+    width: 256px;
+    border: none;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    padding-left: 22px;
+}
+
+.promo__button {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    background-color: var(--blue);
+    text-align: center;
+    width: 100px;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.footer {
+    width: 100%;
+    background-color: var(--black);
+}
+
+.footer__wrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 85px;
+}
+
+.footer__phone-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer__phone {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.footer__phone-text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--gray);
+}
+
+.footer__logo {
+    height: 35px;
+}
+
+.contacts__list {
+    display: flex;
+}
+
+.contacts__item {
+    padding: 8px;
+    transition: ease-in-out .2s, transfrom .2s;
+}
+
+.contacts__item:hover {
+    transform: scale(1.1);
+}
+
+.banner {
+    background-image: url("../img/barber-bkg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner__wrp {
+    min-height: 148px;
+    display: flex;
+    align-items: center;
+}
+
+.banner__title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.booking__input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking__form-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking__form {
+    margin: 64px 0px 96px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.booking__input-title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--black);
+}
+
+.booking__input {
+    margin-bottom: 21px;
+    width: 360px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--gray);
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.booking__checkbox-title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--black);
+}
+
+.booking__checkbox-box {
+    width: 45%;
+}
+
+.booking__button-box {
+    margin-top: 20px;
+}
+
+.booking__button::after {
+    content: '';
+    background-image: url("../img/button-arrow.svg");
+    width: 17px;
+    height: 10px;
+    position: absolute;
+    top: 17px;
+    right: 15px;
+}
+
+.booking__button {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    width: 167px;
+    height: 45px;
+    background-color: var(--blue);
+    border: none;
+    position: relative;
+    padding-right: 20px;
+}
+
+.sign-in__wrp {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in {
+    min-height: 250px;
+    width: 300px;
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    margin-top: 64px;
+    box-shadow: 0px 0px 15px -8px var(--gray);
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in__title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--black);
+    text-align: center;
+}
+
+.sign-in__message {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: red;
+    text-align: center;
+    align-self: center;
+    width: 85%;
+}
+
+.sign-in__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-in__input {
+    width: 85%;
+    margin-bottom: 10px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--gray);
+    background-color: white;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sign-in__button {
+    align-self: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    width: 120px;
+    padding: 10px;
+    background-color: var(--blue);
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.sign-in__link {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--gray);
+    text-align: center;
+}
+
+.sign-in__link-before {
+    position: relative;
+    padding-left: 15px;
+}
+
+.sign-in__link-before::before {
+    content: '';
+    position: absolute;
+    background-image: url("../img/arrow-left.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    left: 60px;
+    top: 0;
+}
+
+.registration {
+    min-height: 280px;
+    width: 300px;
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    margin-top: 64px;
+    box-shadow: 0px 0px 15px -8px var(--gray);
+    display: flex;
+    flex-direction: column;
+}
+
+.registration__text {
+    align-self: center;
+    margin-bottom: 5px;
+    width: 85%;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: var(--gray);
+    text-align: center;
+}
+
+.table__wrp {
+    margin-top: 45px;
+    margin-bottom: 64px;
+}
+
+.table__row {
+    height: 45px;
+}
+
+.table__column-name {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--black);
+    text-align: left;
+    width: 250px;
+}
+
+.table__row-text {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--gray);
+    text-align: left;
+}
+
+.table__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid var(--blue);
+    color: var(--blue);
+}
+
+.edit__wrp {
+    margin-top: 22px;
+    margin-bottom: 45px;
+}
+
+.edit__box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.checkbox__wrp {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--gray);
+    text-align: left;
+    height: 30px;
+}
+
+.checkbox__input {
+    margin-right: 5px;
+}
+
+.services__wrp {
+    margin-bottom: 64px;
+}
+
+.services__form-box {
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.services__input {
+    width: 300px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--gray);
+    background-color: white;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+
+.services__button {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    width: 120px;
+    padding: 10px;
+    background-color: var(--blue);
+    border: none;
+    cursor: pointer;
+}
+
+.messages__wrp {
+    display: flex;
+    justify-content: space-between;
+    width: 645px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.messages__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--gray);
+    text-transform: uppercase;
+}
+
+.messages__price {
+    color: var(--blue);
+}
+
+.booking__label {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    height: 25px;
+}
+
+.booking__fieldset {
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.booking__checkbox {
+    margin-right: 10px;
+}
+
+.notes__box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 64px;
+}
+
+.notes__wrp-box {
+    min-height: 100px;
+    width: 60%;
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 15px -8px var(--gray);
+    box-sizing: border-box;
+}
+
+.notes__wrp {
+    padding: 20px;
+}
+
+.notes__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--gray);
+    margin-bottom: 8px;
+}
+
+.notes__subtext {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--blue);
+}
