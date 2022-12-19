@@ -1,0 +1,183 @@
+2022-11-12 02:11:24 [INFO ] c.p.r.NativeLoader:64 - ********************************
+2022-11-12 02:11:24 [INFO ] c.p.r.NativeLoader:65 - Native library search paths: 
+2022-11-12 02:11:24 [INFO ] c.p.r.NativeLoader:992 - /Users/valera_kudryavtsev/.config/PVS-Studio-Java/7.21.64848
+2022-11-12 02:11:24 [INFO ] c.p.r.NativeLoader:992 - .
+2022-11-12 02:11:24 [INFO ] c.p.r.NativeLoader:992 - /Users/valera_kudryavtsev/.config/PVS-Studio-Java/7.21.64848/..
+2022-11-12 02:11:24 [INFO ] c.p.r.NativeLoader:992 - /Users/valera_kudryavtsev/.config/PVS-Studio-Java/7.21.64848/../..
+2022-11-12 02:11:24 [INFO ] c.p.r.NativeLoader:992 - /Users/valera_kudryavtsev/.config/PVS-Studio-Java/7.21.64848/../../build
+2022-11-12 02:11:24 [INFO ] c.p.r.NativeLoader:67 - Additional path: native/mac
+2022-11-12 02:11:24 [INFO ] c.p.r.NativeLoader:76 - Native library found: /Users/valera_kudryavtsev/.config/PVS-Studio-Java/7.21.64848/native/mac/libanalysis-core.dylib
+2022-11-12 02:11:24 [INFO ] c.p.r.NativeLoader:77 - ********************************
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:49 - Module: barbershop
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:50 - Sources:
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Documents/Study/2 курс/Курсовая работа/barbershop/src/main/java
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Documents/Study/2 курс/Курсовая работа/barbershop/src/test/java
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:52 - Classpath:
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.prefs
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/spring-aspects/5.3.19/spring-aspects-5.3.19.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.xml
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.security.jgss
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.zipfs
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.6.7/spring-boot-starter-json-2.6.7.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.attach
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.accessibility
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.security.jgss
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.crypto.cryptoki
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/postgresql/postgresql/42.3.4/postgresql-42.3.4.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.internal.le
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.management
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/data/spring-data-jpa/2.6.4/spring-data-jpa-2.6.4.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/spring-expression/5.3.19/spring-expression-5.3.19.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.compiler
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.62/tomcat-embed-el-9.0.62.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.management.agent
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.6.7/spring-boot-starter-tomcat-2.6.7.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.6.7/spring-boot-starter-data-jpa-2.6.7.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.javadoc
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/security/spring-security-web/5.6.3/spring-security-web-5.6.3.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.internal.opt
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.naming.rmi
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.2/jackson-datatype-jdk8-2.13.2.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.6.7/spring-boot-starter-aop-2.6.7.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.base
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.jdi
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.desktop
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/boot/spring-boot-devtools/2.6.7/spring-boot-devtools-2.6.7.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/spring-tx/5.3.19/spring-tx-5.3.19.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/spring-jdbc/5.3.19/spring-jdbc-5.3.19.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.internal.ed
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.security.sasl
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.incubator.vector
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.instrument
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.charsets
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/net/bytebuddy/byte-buddy/1.11.22/byte-buddy-1.11.22.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/boot/spring-boot-starter-security/2.6.7/spring-boot-starter-security-2.6.7.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/spring-orm/5.3.19/spring-orm-5.3.19.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.xml.dom
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/spring-core/5.3.19/spring-core-5.3.19.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.6/jaxb-runtime-2.3.6.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.localedata
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.naming.dns
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.jstatd
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/data/spring-data-commons/2.6.4/spring-data-commons-2.6.4.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.management
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.internal.jvmstat
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/security/spring-security-crypto/5.6.3/spring-security-crypto-5.6.3.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.net.http
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.xml.crypto
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.6.7/spring-boot-starter-logging-2.6.7.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.net
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.2/jackson-module-parameter-names-2.13.2.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.editpad
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/security/spring-security-core/5.6.3/spring-security-core-5.6.3.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.jdeps
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.dynalink
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.62/tomcat-embed-websocket-9.0.62.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.rmi
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.sql.rowset
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.6.7/spring-boot-autoconfigure-2.6.7.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/spring-web/5.3.19/spring-web-5.3.19.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.transaction.xa
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.naming
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.httpserver
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.nio.mapmode
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.jfr
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.jconsole
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/spring-webmvc/5.3.19/spring-webmvc-5.3.19.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/boot/spring-boot-starter-freemarker/2.6.7/spring-boot-starter-freemarker-2.6.7.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/glassfish/jaxb/txw2/2.3.6/txw2-2.3.6.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.jcmd
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.compiler
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.logging
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.jartool
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.sctp
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.jdwp.agent
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.management.rmi
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.62/tomcat-embed-core-9.0.62.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/spring-context-support/5.3.19/spring-context-support-5.3.19.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/security/spring-security-config/5.6.3/spring-security-config-5.6.3.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/spring-jcl/5.3.19/spring-jcl-5.3.19.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.1/jackson-databind-2.13.2.1.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/spring-beans/5.3.19/spring-beans-5.3.19.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.internal.vm.ci
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.jlink
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.datatransfer
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.sql
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.jshell
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/boot/spring-boot/2.6.7/spring-boot-2.6.7.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/boot/spring-boot-starter-mail/2.6.7/spring-boot-starter-mail-2.6.7.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.se
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.jpackage
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.smartcardio
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.jsobject
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/hibernate/hibernate-core/5.6.8.Final/hibernate-core-5.6.8.Final.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.hotspot.agent
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.incubator.foreign
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.unsupported.desktop
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.6.7/spring-boot-starter-web-2.6.7.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/java.scripting
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.security.auth
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.unsupported
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/boot/spring-boot-starter/2.6.7/spring-boot-starter-2.6.7.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.crypto.ec
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home!/jdk.management.jfr
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/spring-context/5.3.19/spring-context-5.3.19.jar
+2022-11-12 02:11:25 [INFO ] c.p.p.JsonEvaluator:75 - /Users/valera_kudryavtsev/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.6.7/spring-boot-starter-jdbc-2.6.7.jar
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:154 - Load model from cache...
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:168 - Build model incrementally...
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:169 - Current time: 1668208286458
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:170 - Last build time: 1668208120717
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:171 - Keyset size: 16
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:172 - Input sources size: 16
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:178 - Removed sources size: 0
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:179 - Added sources size: 0
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:180 - Common sources size: 16
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:191 - Incremental sources size: 1
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:194 - Old types size: 16
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:205 - Changed types size: 1
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:207 - Enter types loop
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:229 - Exit types loop
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:241 - Old packages size: 9
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:250 - Data processed
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:256 - Added: 0
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:257 - Removed: 0
+2022-11-12 02:11:26 [INFO ] c.p.p.IncrementalLauncher:258 - Modified : 1
+2022-11-12 02:11:27 [INFO ] c.p.p.IncrementalLauncher:312 - Cache saving started.
+2022-11-12 02:11:27 [WARN ] c.p.p.IncrementalLauncher:319 - Spoon compile error: Syntax error, insert ";" to complete BlockStatements at /Users/valera_kudryavtsev/Documents/Study/2 курс/Курсовая работа/barbershop/src/main/java/com/example/barbershop/controller/MainController.java:30
+spoon.support.compiler.SnippetCompilationError: Syntax error, insert ";" to complete BlockStatements at /Users/valera_kudryavtsev/Documents/Study/2 курс/Курсовая работа/barbershop/src/main/java/com/example/barbershop/controller/MainController.java:30
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.reportProblemsWhenCompiling(JDTBasedSpoonCompiler.java:609)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.compile(JDTBasedSpoonCompiler.java:167)
+	at com.pvsstudio.projects.IncrementalLauncher.saveCache(IncrementalLauncher.java:315)
+	at com.pvsstudio.projects.Module.build(Module.java:379)
+	at com.pvsstudio.runner.ModuleWorker.run(ModuleWorker.java:52)
+	at com.pvsstudio.runner.AnalyzerRunner.run(AnalyzerRunner.java:81)
+	at com.pvsstudio.Main.main(Main.java:508)
+2022-11-12 02:11:27 [INFO ] c.p.p.IncrementalLauncher:355 - Cache saving finished.
+2022-11-12 02:11:27 [INFO ] c.p.p.Module:383 - Model build success.

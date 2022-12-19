@@ -1,7 +1,7 @@
 <#macro login path isRegisterForm>
     <form class="sign-in__form" action="${path}" method="post">
         <input required class="sign-in__input" type="text" name="username" placeholder="Введите логин"/>
-        <input required class="sign-in__input" type="password" name="password" placeholder="Введите пароль"/>
+        <input id="password" required class="sign-in__input" type="password" name="password" placeholder="Введите пароль"/>
         <#if isRegisterForm>
             <input required class="sign-in__input" type="email" name="email" placeholder="Введите email"/>
             <p class="registration__text">
