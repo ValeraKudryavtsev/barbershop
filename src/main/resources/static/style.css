@@ -735,7 +735,7 @@ body {
 .messages__wrp {
     display: flex;
     justify-content: space-between;
-    width: 645px;
+    width: 780px;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -750,6 +750,7 @@ body {
 
 .messages__price {
     color: var(--blue);
+    margin-right: 10px;
 }
 
 .booking__label {

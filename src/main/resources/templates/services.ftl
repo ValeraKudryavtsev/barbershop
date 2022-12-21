@@ -60,7 +60,14 @@
                 <#list messages as message>
                     <div class="messages__wrp">
                         <p class="messages__text">${message.text}</p>
-                        <p class="messages__text messages__price">${message.price}<span>&#x20bd;</span></p>
+                        <div style="display:flex; align-items: center">
+                            <p class="messages__text messages__price">${message.price}<span>&#x20bd;</span></p>
+                            <form class="edit__box" action="/services/delete" method="post">
+                                <input required type="hidden" value="${message.id}" name="messageId">
+                                <input type="hidden" value="${_csrf.token}" name="_csrf">
+                                <button style="align-self: flex-start" class="sign-in__button" type="submit">Удалить</button>
+                            </form>
+                        </div>
                     </div>
                 <#else>
                     <p class="messages__text">Нет услуг</p>

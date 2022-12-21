@@ -2,6 +2,7 @@ package com.example.barbershop.controller;
 
 import com.example.barbershop.domain.Message;
 import com.example.barbershop.domain.Service;
+import com.example.barbershop.domain.User;
 import com.example.barbershop.repos.MessageRepo;
 import com.example.barbershop.repos.ServiceRepo;
 import com.example.barbershop.service.MailSender;
@@ -146,5 +147,14 @@ public class MainController {
         model.put("messages", messages);
 
         return "services";
+    }
+
+    @PostMapping("/services/delete")
+    public String remove(
+            @RequestParam("messageId") Message message
+    ) {
+        messageRepo.delete(message);
+
+        return "redirect:/services";
     }
 }

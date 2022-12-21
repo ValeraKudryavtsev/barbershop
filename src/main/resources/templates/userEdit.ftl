@@ -57,6 +57,11 @@
                     <input type="hidden" value="${_csrf.token}" name="_csrf">
                     <button style="align-self: flex-start" class="sign-in__button" type="submit">Сохранить</button>
                 </form>
+                <form class="edit__box" action="/" method="post">
+                    <input required type="hidden" value="${user.id}" name="userId">
+                    <input type="hidden" value="${_csrf.token}" name="_csrf">
+                    <button style="align-self: flex-start" class="sign-in__button" type="submit">Удалить</button>
+                </form>
             </section>
         </main>
         <footer class="footer footer__flex">
